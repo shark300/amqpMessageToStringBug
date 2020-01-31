@@ -1,1 +1,8 @@
 language: java
+
+"os": [
+    "linux"
+]
+
+script:
+  - ./gradlew build
